@@ -1,6 +1,6 @@
-### What is type inference in TypeScript? Why is it helpful?
+## What is type inference in TypeScript? Why is it helpful?
 
-**Type Inference in TypeScript: Make code smarter and safer!**
+### **Type Inference in TypeScript: Make code smarter and safer!**
 
 Those who work with JavaScript are well aware that it is a dynamically typed language. This means that when declaring a variable in JavaScript, the type (like number, string) does not need to be specified. The type is determined at runtime by the JavaScript program.
 Although the code can be written much faster, the possibility of bugs increases, and it takes a lot of time to find them.
