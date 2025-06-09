@@ -128,3 +128,5 @@ async function squareAsync(n: number): Promise<number>{
  
     })
 }
+
+console.log("Hello");
