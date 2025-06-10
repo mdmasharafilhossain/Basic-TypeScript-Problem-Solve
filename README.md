@@ -98,3 +98,16 @@ console.log(key1); // Output: name
 console.log(key2); // Output: age
 
 }
+
+**Some of the reasons why it is so useful are given below:**
+
+**1. Type Safe Dynamic Property Access:**
+This is the most important use of keyof. When an object is created and a property name of that object is input, then keyof warns us against giving the wrong name or using the wrong key.
+
+**2. Reusability:** We can create Generic Function using key of to work on any object and its specific property. Which helps to represent the code in less time and turns it into clean and reusable code.
+
+**3. Refactoring:** Its role is immense in quickly identifying the changes in the code, when the property name of an object is changed, then the key of type script shows an error. Because there is an issue related to property name validity.
+
+**4. Mapped types:** The use of mapped types with key of in typescript is very little surprising. Through this, we can create new types from specific types.
+
+In conclusion, the keyof keyword is a small but very powerful feature of TypeScript. It helps you maintain strict type safety even when writing dynamic code, which reduces runtime errors and makes the code more predictable and maintainable. Its use with generics gives it more flexibility, which plays an essential role in mapped types and other advanced TypeScript patterns. Understanding and using keyof is crucial to taking your TypeScript skills to the next level.
