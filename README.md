@@ -11,6 +11,25 @@ The solution to this problem is TypeScript, a superset of JavaScript. TypeScript
 
 In simple terms, type inference is the ability of the TypeScript compiler to automatically infer the type of a variable, function parameter, or function return type without explicitly stating the type. That is, when a value is assigned to a variable, TypeScript automatically determines the type of the variable based on that value.
 
+Example: 
+
+{
+
+// The type is not explicitly specified here, but TypeScript itself knows that 'message' is a string.
+
+
+let message = "Hello, TypeScript!";
+
+// Similarly, TypeScript assumes that 'count' is a number.
+
+let count = 10;
+
+// and 'isActive' is a boolean.
+
+let isActive = true;
+
+}
+
 **Why type inference is helpful?**
 
 **1. Less code to write:** If you explicitly write each variable, function parameter, or return type separately, the code will become much longer and more complex. Type interface solves this problem.
